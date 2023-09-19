@@ -11,6 +11,61 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+# Weather App
+
+![Weather App Screenshot](screenshot.png)
+
+La Weather App est une application météorologique simple qui vous permet de consulter les conditions météorologiques actuelles pour n'importe quelle ville dans le monde. Vous pouvez également obtenir des suggestions de tenues en fonction de la température.
+
+## Fonctionnalités
+
+- Recherchez des informations météorologiques pour n'importe quelle ville en saisissant son nom.
+- Affichez la température actuelle, l'humidité, la vitesse du vent et une icône météorologique correspondante.
+- Obtenez des suggestions de tenues en fonction de la température actuelle.
+- Interface utilisateur conviviale et responsive.
+
+## Technologies Utilisées
+
+- React: Utilisé pour la construction de l'interface utilisateur.
+- API OpenWeatherMap: Pour obtenir les données météorologiques en temps réel.
+- HTML et CSS: Pour la structure et la mise en page de l'application.
+- JavaScript: Pour la logique métier.
+
+## Comment Exécuter l'Application
+
+1. Assurez-vous d'avoir [Node.js](https://nodejs.org/) installé sur votre système.
+2. Clonez ce référentiel sur votre ordinateur.
+3. Accédez au répertoire du projet via la ligne de commande.
+4. Exécutez la commande `npm install` pour installer les dépendances.
+5. Créez un fichier `.env` à la racine du projet et ajoutez votre clé d'API OpenWeatherMap comme ceci : `REACT_APP_API_KEY=YOUR_API_KEY`.
+6. Exécutez la commande `npm start` pour lancer l'application en mode développement.
+7. Ouvrez votre navigateur et accédez à `http://localhost:3000`.
+
+## Personnalisation
+
+- Vous pouvez personnaliser l'application en modifiant les images d'icônes météorologiques dans le dossier `src/Assets`.
+- Vous pouvez également ajouter de nouvelles suggestions de tenues dans le tableau `tenues` du fichier `WeatherApp.jsx`.
+
+## Remarque
+
+Assurez-vous d'utiliser votre propre clé d'API OpenWeatherMap dans le fichier `.env`. Vous pouvez obtenir une clé d'API gratuite en vous inscrivant sur [OpenWeatherMap](https://openweathermap.org/).
+
+---
+
+Cette application a été créée dans le cadre de l'apprentissage de React et de l'intégration avec une API externe. Amusez-vous à l'utiliser et n'hésitez pas à contribuer ou à l'améliorer !
+
+Pour toute question ou suggestion, vous pouvez me contacter à adelsidiahmed2020@email.com.
+
+
+
+
+
+
+
+
+GITHUB--------GITHUB---------------GITHUB-----------------GITHUB----------------------GITHUB-----------------------------GITHUB--------------------GITHUB---------------------GITHUB---------------------GITHUB-------------------GITHUB----------------------GITHUB
+
+
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
@@ -68,3 +123,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
