@@ -13,7 +13,6 @@ import wind_icon from '../Assets/wind.png'
 export const WeatherApp = () => {
 
     // un tableau de tenus 
-
     const tenues = [
         `
           
@@ -53,9 +52,7 @@ export const WeatherApp = () => {
         `
       ];
 
-    
 
-    
     // stocker KEY de l'api dans api-key
     let api_key = "419922c37cbe53c60c69ab4ac1cf68f3";
 
@@ -96,12 +93,6 @@ export const WeatherApp = () => {
         const wind = document.getElementsByClassName("wend");
         const temperature = document.getElementsByClassName("weather-temp");
         const location = document.getElementsByClassName("weather-location");
-
-
-        
-
-
-        
 
 
         // modifier les données récuperer pour les afficher sur l'interface 
@@ -146,15 +137,7 @@ export const WeatherApp = () => {
           } else if (data.main.temp >= 30) {
             setTenueIndex(0); // Tenue très chaude
           }
-        
-
-
-        
-
     }
-
-
-
   return (
     
     <div className="container">
