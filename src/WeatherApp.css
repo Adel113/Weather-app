@@ -2,7 +2,7 @@
 body{
     margin: none;
     font-family: 'Tektur', cursive;
-    background-image: url('../Assets/weather-images.jpg');
+    background-image: url('./Assets/weather-images.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
